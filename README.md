@@ -20,7 +20,7 @@ cmd: chmod 744 "nom du fichier"
 ## 5.Donne la(les) ligne(s) de commande(s) bash pour afficher le texte suivant :
 
 ## 6.Quelle commande te permet de mettre en avant le processus gedit? 
-cmd: ps gedit
+cmd: ps aux | grep gedit
 
 ## 7.Quels matériels réseaux sont sur la couche 2 et la couche 3 du modèle OSI ? Donne leurs spécificités.
 les matériels réseaux de la couche 2 et 3 du modèle OSI sont les routeurs, switch, qui gère la liaisons au réseau (Ethernet > ip) des machines
